@@ -53,9 +53,8 @@ public class CardTrick {
             Card c = createRandomCard();
             magicHand.add(c);
         }
-
-        Card luckCard = new Card(2, "clubs");
-        magicHand.add(luckCard);
+        Card luckyCard = new Card(7, "hearts"); 
+        magicHand.add(luckyCard);
 
         Scanner scanner = new Scanner(System.in);
         System.out.print("Pick a card value: ");
